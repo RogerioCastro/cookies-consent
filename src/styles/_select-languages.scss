@@ -1,0 +1,13 @@
+.cc-select-languages {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: currentColor;
+  cursor: pointer;
+  user-select: none;
+  .cc-select-languages-icon {
+    width:18px;
+    height:18px;
+    margin-left: 5px;
+  }
+}

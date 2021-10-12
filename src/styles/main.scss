@@ -1,0 +1,20 @@
+$bg-color: #3f3f4f;
+$font-color: #ffffff;
+$font-size: 14px;
+$bg-dialog-title: #3f3f4f;
+$link-color: #4ba2ee;
+$link-hover-color: #ffffff;
+
+@import 'ripple-button';
+@import 'toggle-switch';
+@import 'bottom-sheet';
+@import 'select-languages';
+@import 'popper-menu';
+@import 'preferences-dialog';
+@import 'overlay';
+
+/* body */
+.cc-dialog-open {
+  overflow-y: hidden;
+  padding-right: 15px
+}

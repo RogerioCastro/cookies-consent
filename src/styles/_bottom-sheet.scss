@@ -1,0 +1,67 @@
+.cc-bottom-sheet {
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  display: flex;
+  min-height: 80px;
+  width: 100%;
+  bottom: -2000px;
+  left: 0;
+  z-index: 10000;
+  padding: 10px 15px;
+  font-size: $font-size;
+  opacity: 0;
+  color: $font-color;
+  background-color: $bg-color;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+  /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4); */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .3s ease-out;
+       -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+  .cc-bottom-sheet-header {
+    width: 100vw;
+    flex: 0 0 100%; /* flex-grow, flex-shrink, flex-basis */
+    display: flex;
+    border-bottom: 1px solid #fff6;
+    padding: 0 15px 5px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .cc-bottom-sheet-policies {
+      display: flex;
+      flex-wrap: wrap;
+      > div:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  .cc-bottom-sheet-content {
+    margin-bottom: 10px;
+    flex: 1;
+  }
+  .cc-bottom-sheet-controls {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 5px 25px;
+    justify-content: center;
+    flex: 0;
+    .cc-bottom-sheet-btn {
+      margin: 3px 0;
+    }
+    @media (max-width: 450px) {
+      margin: 10px 0;
+      min-width: 100%;
+    }
+  }
+}

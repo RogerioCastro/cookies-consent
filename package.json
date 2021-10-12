@@ -1,0 +1,31 @@
+{
+  "name": "cookies-consent",
+  "title": "Cookies Consent",
+  "version": "1.0.0",
+  "description": "Javascript library for dealing with cookies compliance.",
+  "author": "Rogério Castro",
+  "license": "MIT",
+  "main": "dist/cookies-consent.min.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "start-no-open": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "cookies, compliance, consent, lgpd"
+  ],
+  "devDependencies": {
+    "@popperjs/core": "^2.10.1",
+    "css-loader": "^6.3.0",
+    "eslint": "^7.32.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

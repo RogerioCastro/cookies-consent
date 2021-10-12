@@ -1,0 +1,43 @@
+.cc-ripple-button {
+  position: relative;
+  min-width: 150px;
+  overflow: hidden;
+  transition: background 400ms;
+  color: inherit;
+  background-color: transparent;
+  padding: 3px 10px;
+  font-size: 1em;
+  outline: 0;
+  border: 0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid #ffffff52;
+  &:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+  span {
+    &.cc-ripple {
+      position: absolute;
+      border-radius: 50%;
+      transform: scale(0);
+      animation: ripple 600ms linear;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+  .svg-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
