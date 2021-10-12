@@ -156,7 +156,7 @@ preferences: [
           Estes cookies são necessários para o bom funcionamento do nosso site e não podem ser desligados no nosso sistema.
         `
       }, // Descrição da opção
-      // outros idiomas
+      // outros idiomas...
     ]
   }
 ```
