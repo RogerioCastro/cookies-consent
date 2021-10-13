@@ -211,7 +211,7 @@ A chamada da função `CookiesConsent(options)` inicializa e executa a bibliotec
 
 ### Dados armazenados pela biblioteca
 
-A biblioteca armazena dados básicos do consentimento e preferências no navegador do usuário, por meio do [**localStorage**](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage). O objeto de dados armazenado é fornecido como argumento das *callbacks* dos eventos `onAccept`, `onReject`, `onSave` e `onAlready`, ou pode ser acessado na propriedade `data` da instância.
+A biblioteca armazena dados básicos do consentimento e preferências no navegador do usuário, por meio do [**localStorage**](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage). O objeto de dados armazenado é fornecido como argumento das *callbacks* dos eventos `onAccept`, `onReject`, `onSave` e `onAlready`, ou pode ser acessado no retorno da função `getData` da instância.
 
 O objeto armazenado tem a seguinte estrutura:
 
