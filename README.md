@@ -2,6 +2,8 @@
 
 Biblioteca para aviso amigável de utilização de *cookies* e gerenciamento do consentimento ou preferências do usuário sobre os *cookies* utilizados.
 
+[https://rogeriocastro.github.io/cookies-consent/](https://rogeriocastro.github.io/cookies-consent/)
+
 <p align="center"><img src="https://raw.githubusercontent.com/RogerioCastro/cookies-consent/main/dist/assets/images/example.png"></p>
 
 > Veja uma **demonstração** da biblioteca, baixando o conteúdo do diretório [`/dist`](/dist) e rodando o arquivo `index.html`.
